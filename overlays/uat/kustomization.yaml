@@ -1,0 +1,5 @@
+bases:
+- ../../base
+replicas:
+- name: quarkus-podname
+  count: 3
