@@ -7,4 +7,4 @@ kind: Kustomization
 images:
 - name: quay.io/mpua/quarkus-podname:latest
   newName: quay.io/mpua/quarkus-podname
-  newTag: v1
+  newTag: f0d0008b4fe93c262fb5a59abd417b6dae62ce43
