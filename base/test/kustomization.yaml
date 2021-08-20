@@ -1,10 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- deployment.yaml
-- service.yaml
-- route.yaml
+- ./welcome.yaml
 images:
-- name: quarkus-podname
-  newName: quay.io/mpua/quarkus-podname
+- name: quay.io/mpua/quarkus-podname
   newTag: f0d0008b4fe93c262fb5a59abd417b6dae62ce43
+- name: quay.io/redhatworkshops/welcome-php
+  newTag: ffcd15
